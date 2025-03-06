@@ -81,6 +81,8 @@ p {
   margin-left: 120px;
   position: sticky;
   top: 0;
+  background-color: var(--background-50);
+  padding-block:  12px; ;
 }
 
 button {
@@ -116,8 +118,8 @@ button {
   animation: zoom-in 450ms ease-in-out;
 }
 .card:hover {
-  transition: all 250ms ease;
-  opacity: 0.96;
+  // transition: all 250ms ease;
+  // opacity: 0.96;
 }
 @keyframes zoom-in {
   0% {
