@@ -1,0 +1,190 @@
+.freckle-face-regular {
+  font-family: "Freckle Face", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --text-50: #f0f0f5;
+  --text-100: #e2e0eb;
+  --text-200: #c5c2d6;
+  --text-300: #a8a3c2;
+  --text-400: #8b85ad;
+  --text-500: #6e6699;
+  --text-600: #58527a;
+  --text-700: #423d5c;
+  --text-800: #2c293d;
+  --text-900: #16141f;
+  --text-950: #0b0a0f;
+
+  --background-50: #f1f1f4;
+  --background-100: #e3e3e8;
+  --background-200: #c6c6d2;
+  --background-300: #aaaabb;
+  --background-400: #8e8ea4;
+  --background-500: #71718e;
+  --background-600: #5b5b71;
+  --background-700: #444455;
+  --background-800: #2d2d39;
+  --background-900: #17171c;
+  --background-950: #0b0b0e;
+
+  --primary-50: #f0f0f5;
+  --primary-100: #e1e1ea;
+  --primary-200: #c3c2d6;
+  --primary-300: #a4a4c1;
+  --primary-400: #8686ac;
+  --primary-500: #686798;
+  --primary-600: #535379;
+  --primary-700: #3e3e5b;
+  --primary-800: #2a293d;
+  --primary-900: #15151e;
+  --primary-950: #0a0a0f;
+
+  --secondary-50: #f5f0f2;
+  --secondary-100: #eae1e5;
+  --secondary-200: #d6c2cb;
+  --secondary-300: #c1a4b1;
+  --secondary-400: #ac8696;
+  --secondary-500: #98677c;
+  --secondary-600: #795363;
+  --secondary-700: #5b3e4b;
+  --secondary-800: #3d2932;
+  --secondary-900: #1e1519;
+  --secondary-950: #0f0a0c;
+
+  --accent-50: #f5f0f0;
+  --accent-100: #eae2e1;
+  --accent-200: #d6c5c2;
+  --accent-300: #c1a7a4;
+  --accent-400: #ac8a86;
+  --accent-500: #986d67;
+  --accent-600: #795753;
+  --accent-700: #5b413e;
+  --accent-800: #3d2c29;
+  --accent-900: #1e1615;
+  --accent-950: #0f0b0a;
+}
+.main-section{
+  position: relative;
+}
+
+.logo h1:hover {
+  cursor: pointer;
+}
+.title,
+p {
+  text-align: center;
+}
+.filter_buttons {
+  display: flex;
+  margin-left: 120px;
+  position: sticky;
+  top: 0;
+}
+
+button {
+  background-color: var(--primary-400);
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  &:hover {
+    transition: 0.3s;
+    background-color: var(--primary-500);
+  }
+}
+.active {
+  background-color: var(--primary-600);
+  color: #fff;
+}
+.filterable_cards {
+  display: flex;
+  margin-top: 25px;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  flex-basis: 300px;
+  /* background-color: #fff; */
+  padding: 3px;
+  border-radius: 8px;
+  animation: zoom-in 450ms ease-in-out;
+}
+.card:hover {
+  transition: all 250ms ease;
+  opacity: 0.96;
+}
+@keyframes zoom-in {
+  0% {
+    scale: 0.95;
+    opacity: 0.6;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+.animate-out {
+  animation: zoom-out 500ms ease-in-out;
+}
+@keyframes zoom-out {
+  0% {
+    scale: 1;
+    opacity: 1;
+  }
+  100% {
+    scale: 0.85;
+    opacity: 0.6;
+  }
+}
+.card img,
+.medium-zoom-image {
+  width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 450ms ease-in-out !important;
+}
+
+
+.card_body {
+  padding: 5px;
+}
+.card_title {
+  font-size: 30px;
+  font-weight: 100;
+  color: #744444;
+}
+/* .card_text {
+  font-size: 30px;
+
+  color: #333;
+} */
+/* .filter_buttons,
+img {
+  vi
+} */
+
+@media screen and (max-width: 500px) {
+  .filter_buttons {
+    overflow-x: scroll;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    button {
+      min-width: max-content;
+    }
+  }
+}
+@media screen and (max-width: 850) {
+  .filter_buttons {
+    overflow-x: scroll;
+  }
+}
+
+.medium-zoom-overlay {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}

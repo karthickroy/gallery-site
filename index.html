@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Website</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.1.0/medium-zoom.min.js"></script>
+    <link rel="scss" href="style.scss" />
+    <link rel="scss" href="main-section.scss" />
+    <script
+      async
+      data-autorun
+      src="https://cdn.jsdelivr.net/npm/hot-sass"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar">
+          <div class="logo">
+            <img
+              data-zoomable
+              src="./camera.svg"
+              style="height: 25px"
+              alt="camera"
+            />
+            <h1 style="font-family: Freckle Face">PHOTO PERFECT</h1>
+          </div>
+          <div class="hamburger-menu">
+            <img
+              src="./assests/Menuu.svg"
+              alt="Hamburger-Menu"
+              style="height: 40px; width: 50px"
+            />
+          </div>
+          <div class="nav-menu hide">
+            <a href="#">Home</a>
+            <a href="#">Career</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </div>
+        </nav>
+      </header>
+
+      <div class="main-section">
+        <div class="title">
+          <p>
+            <strong>
+              We are Photo Perfect ! A Digital Photography Studio</strong
+            >
+            <img src="./aperture.svg" alt="" height="25px" />
+          </p>
+        </div>
+        <div class="filter_buttons">
+          <!-- <img data-zoomable src="circle-dropdown.svg" alt="" height="40px;" /> -->
+          <button class="active" data-name="all">SHOW ALL</button>
+          <button data-name="art work">ART WORK</button>
+          <button data-name="photography">PHOTOGRAPHY</button>
+          <button data-name="train">TRAIN</button>
+          <button data-name="animal">ANIMALS</button>
+          <button data-name="toys">TOYS</button>
+          <button data-name="cricket player">CRICEKT PLAYERS</button>
+          <button data-name="phones">PHONES</button>
+        </div>
+
+        <div class="filterable_cards">
+          <div class="card" data-name="art work">
+            <img data-zoomable src="./art-work/art1.avif" alt="" />
+          </div>
+          <div class="card" data-name="art work">
+            <img
+              data-zoomable
+              src="./art-work/art-2.avif"
+              alt=""
+              height="200"
+            />
+          </div>
+          <div class="card" data-name="art work">
+            <img
+              data-zoomable
+              src="./art-work/art-3.avif"
+              alt=""
+              height="200"
+            />
+          </div>
+          <div class="card" data-name="art work">
+            <img
+              data-zoomable
+              src="./art-work/art-4.avif"
+              alt=""
+              height="200"
+            />
+          </div>
+          <div class="card" data-name="art work">
+            <img
+              data-zoomable
+              src="./art-work/art-5.avif"
+              alt=""
+              height="200"
+            />
+          </div>
+          <div class="card" data-name="art work">
+            <img
+              data-zoomable
+              src="./art-work/art-6.avif"
+              alt=""
+              height="200"
+            />
+          </div>
+          <div class="card" data-name="photography">
+            <img data-zoomable src="./photography/photo-1.avif" alt="" />
+          </div>
+          <div class="card" data-name="photography">
+            <img data-zoomable src="./photography/photo-2.avif" alt="" />
+          </div>
+          <div class="card" data-name="photography">
+            <img data-zoomable src="./photography/photo-3.avif" alt="" />
+          </div>
+          <div class="card" data-name="photography">
+            <img data-zoomable src="./photography/photo-4.avif" alt="" />
+          </div>
+          <div class="card" data-name="photography">
+            <img data-zoomable src="./photography/photo-5.avif" alt="" />
+          </div>
+          <div class="card" data-name="photography">
+            <img data-zoomable src="./photography/photo-6.avif" alt="" />
+          </div>
+          <div class="card" data-name="train">
+            <img data-zoomable src="./train/train-1.avif" alt="" />
+          </div>
+          <div class="card" data-name="train">
+            <img data-zoomable src="./train/train-2.avif" alt="" height="220" />
+          </div>
+          <div class="card" data-name="train">
+            <img data-zoomable src="./train/train-3.avif" alt="" />
+          </div>
+          <div class="card" data-name="train">
+            <img data-zoomable src="./train/train-4.avif" alt="" />
+          </div>
+          <div class="card" data-name="train">
+            <img data-zoomable src="./train/train-5.avif" alt="" />
+          </div>
+          <div class="card" data-name="train">
+            <img data-zoomable src="./train/train-6.avif" alt="" />
+          </div>
+          <div class="card" data-name="animal">
+            <img data-zoomable src="./animal/animal-1.avif" alt="" />
+          </div>
+          <div class="card" data-name="animal">
+            <img data-zoomable src="./animal/animal-2.avif" alt="" />
+          </div>
+          <div class="card" data-name="animal">
+            <img data-zoomable src="./animal/animal-3.avif" alt="" />
+          </div>
+          <div class="card" data-name="animal">
+            <img data-zoomable src="./animal/animal-4.avif" alt="" />
+          </div>
+          <div class="card" data-name="animal">
+            <img data-zoomable src="./animal/animal-5.avif" alt="" />
+          </div>
+          <div class="card" data-name="animal">
+            <img data-zoomable src="./animal/animal-6.avif" alt="" />
+          </div>
+          <div class="card" data-name="toys">
+            <img data-zoomable src="./toys/toy-1.avif" alt="" />
+          </div>
+          <div class="card" data-name="toys">
+            <img data-zoomable src="./toys/toy-2.avif" alt="" />
+          </div>
+          <div class="card" data-name="toys">
+            <img data-zoomable src="./toys/toy-3.avif" alt="" />
+          </div>
+          <div class="card" data-name="toys">
+            <img data-zoomable src="./toys/toy-4.avif" alt="" />
+          </div>
+          <div class="card" data-name="toys">
+            <img data-zoomable src="./toys/toy-5.avif" alt="" />
+          </div>
+          <div class="card" data-name="toys">
+            <img data-zoomable src="./toys/toy-6.avif" alt="" />
+          </div>
+          <div class="card" data-name="cricket player">
+            <img data-zoomable src="./cricket/cricket-1.avif" alt="" />
+          </div>
+          <div class="card" data-name="cricket player">
+            <img data-zoomable src="./cricket/cricket-2.avif" alt="" />
+          </div>
+          <div class="card" data-name="cricket player">
+            <img data-zoomable src="./cricket/cricket-3.avif" alt="" />
+          </div>
+          <div class="card" data-name="cricket player">
+            <img data-zoomable src="./cricket/cricket-4.avif" alt="" />
+          </div>
+          <div class="card" data-name="cricket player">
+            <img data-zoomable src="./cricket/cricket-5.avif" alt="" />
+          </div>
+          <div class="card" data-name="cricket player">
+            <img data-zoomable src="./cricket/cricket-6.avif" alt="" />
+          </div>
+          <div class="card" data-name="phones">
+            <img data-zoomable src="phones/phone-1.avif" alt="" />
+          </div>
+          <div class="card" data-name="phones">
+            <img data-zoomable src="phones/phone-2.avif" alt="" height="200" />
+          </div>
+          <div class="card" data-name="phones">
+            <img data-zoomable src="phones/phone-3.avif" alt="" />
+          </div>
+          <div class="card" data-name="phones">
+            <img data-zoomable src="phones/phone-4.avif" alt="" />
+          </div>
+          <div class="card" data-name="phones">
+            <img data-zoomable src="phones/phone-5.avif" alt="" />
+          </div>
+          <div class="card" data-name="phones">
+            <img data-zoomable src="phones/phone-6.avif" alt="" height="200" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      mediumZoom("[data-zoomable]");
+    </script>
+  </body>
+</html>
