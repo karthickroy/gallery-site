@@ -66,7 +66,25 @@
   --accent-950: #0f0b0a;
 }
 .main-section{
-  position: relative;
+  // position: relative;
+}
+.title p:hover{
+  animation-name: move-to-right ;
+  animation-duration: 1.6s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  cursor: pointer;
+}
+@keyframes move-to-right {
+  0% {
+  scale: 1.6;
+  opacity: 0.6;
+}
+
+100% {
+  scale:0.9;
+  opacity: 0.6;
+}
 }
 
 .logo h1:hover {
@@ -79,7 +97,7 @@ p {
 .filter_buttons {
   display: flex;
   margin-left: 120px;
-  position: sticky;
+  // position: sticky;
   top: 0;
   background-color: var(--background-50);
   padding-block:  12px; ;
@@ -97,6 +115,7 @@ button {
   &:hover {
     transition: 0.3s;
     background-color: var(--primary-500);
+    
   }
 }
 .active {
@@ -117,9 +136,10 @@ button {
   border-radius: 8px;
   animation: zoom-in 450ms ease-in-out;
 }
-.card:hover {
-  // transition: all 250ms ease;
-  // opacity: 0.96;
+.card:hover{
+
+  transition: all 250ms ease;
+  opacity: 0.96;
 }
 @keyframes zoom-in {
   0% {
