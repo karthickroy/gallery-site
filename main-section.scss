@@ -8,6 +8,7 @@
   --text-50: #f0f0f5;
   --text-100: #e2e0eb;
   --text-200: #c5c2d6;
+
   --text-300: #a8a3c2;
   --text-400: #8b85ad;
   --text-500: #6e6699;
@@ -115,6 +116,7 @@ button {
   &:hover {
     transition: 0.3s;
     background-color: var(--primary-500);
+    box-shadow: 7px 5px;
     
   }
 }
@@ -129,6 +131,7 @@ button {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .card {
   flex-basis: 300px;
   /* background-color: #fff; */
@@ -137,10 +140,11 @@ button {
   animation: zoom-in 450ms ease-in-out;
 }
 .card:hover{
-
-  transition: all 250ms ease;
+transform: translateY(10px);
+  transition: all 250ms ease-in;
   opacity: 0.96;
 }
+
 @keyframes zoom-in {
   0% {
     scale: 0.95;
@@ -170,6 +174,10 @@ button {
   border-radius: 10px;
   cursor: pointer;
   transition: all 450ms ease-in-out !important;
+}
+.card img{
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -210,3 +218,13 @@ img {
 .medium-zoom-overlay {
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
+@media screen and (min-width:500px) {
+  .title p:hover{
+    transition: width 2s, height 4s;
+  }
+  
+}
+
+
+
+
