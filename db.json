@@ -1,0 +1,180 @@
+{
+  "images": [
+    {
+      "src": "./toys/toy-3.avif",
+      "category": "toys"
+    },
+    {
+      "src": "./train/train-4.avif",
+      "category": "train"
+    },
+    {
+      "src": "./art-work/art-5.avif",
+      "category": "art work",
+      "height": 200
+    },
+    {
+      "src": "./photography/photo-1.avif",
+      "category": "photography"
+    },
+    {
+      "src": "./animal/animal-6.avif",
+      "category": "animal"
+    },
+    {
+      "src": "./photography/photo-2.avif",
+      "category": "photography"
+    },
+    {
+      "src": "./toys/toy-5.avif",
+      "category": "toys"
+    },
+    {
+      "src": "./train/train-6.avif",
+      "category": "train"
+    },
+    {
+      "src": "./cricket/cricket-4.avif",
+      "category": "cricket player"
+    },
+    {
+      "src": "./photography/photo-3.avif",
+      "category": "photography"
+    },
+    {
+      "src": "./train/train-1.avif",
+      "category": "train"
+    },
+    {
+      "src": "./photography/photo-4.avif",
+      "category": "photography"
+    },
+    {
+      "src": "./photography/photo-5.avif",
+      "category": "photography"
+    },
+    {
+      "src": "./animal/animal-1.avif",
+      "category": "animal"
+    },
+    {
+      "src": "./train/train-2.avif",
+      "category": "train",
+      "height": 220
+    },
+    {
+      "src": "./train/train-3.avif",
+      "category": "train"
+    },
+    {
+      "src": "./toys/toy-4.avif",
+      "category": "toys"
+    },
+    {
+      "src": "./train/train-5.avif",
+      "category": "train"
+    },
+    {
+      "src": "./cricket/cricket-3.avif",
+      "category": "cricket player"
+    },
+    {
+      "src": "./animal/animal-2.avif",
+      "category": "animal"
+    },
+    {
+      "src": "./art-work/art-2.avif",
+      "category": "art work",
+      "height": 200
+    },
+    {
+      "src": "./animal/animal-3.avif",
+      "category": "animal"
+    },
+    {
+      "src": "phones/phone-5.avif",
+      "category": "phones"
+    },
+    {
+      "src": "./animal/animal-4.avif",
+      "category": "animal"
+    },
+    {
+      "src": "./animal/animal-5.avif",
+      "category": "animal"
+    },
+    {
+      "src": "phones/phone-6.avif",
+      "category": "phones",
+      "height": 200
+    },
+    {
+      "src": "./toys/toy-1.avif",
+      "category": "toys"
+    },
+    {
+      "src": "./cricket/cricket-6.avif",
+      "category": "cricket player"
+    },
+    {
+      "src": "./toys/toy-2.avif",
+      "category": "toys"
+    },
+    {
+      "src": "./art-work/art-6.avif",
+      "category": "art work",
+      "height": 200
+    },
+    {
+      "src": "./toys/toy-6.avif",
+      "category": "toys"
+    },
+    {
+      "src": "./cricket/cricket-1.avif",
+      "category": "cricket player"
+    },
+    {
+      "src": "./photography/photo-6.avif",
+      "category": "photography"
+    },
+    {
+      "src": "./cricket/cricket-5.avif",
+      "category": "cricket player"
+    },
+    {
+      "src": "phones/phone-1.avif",
+      "category": "phones"
+    },
+    {
+      "src": "phones/phone-2.avif",
+      "category": "phones",
+      "height": 200
+    },
+    {
+      "src": "./cricket/cricket-2.avif",
+      "category": "cricket player"
+    },
+    {
+      "src": "phones/phone-3.avif",
+      "category": "phones"
+    },
+    {
+      "src": "./art-work/art1.avif",
+      "category": "art work"
+    },
+    {
+      "src": "phones/phone-4.avif",
+      "category": "phones"
+    },
+    {
+      "src": "./art-work/art-3.avif",
+      "category": "art work",
+      "height": 200
+    },
+    {
+      "src": "./art-work/art-4.avif",
+      "category": "art work",
+      "height": 200
+    }
+  ]
+}
