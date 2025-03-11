@@ -5,7 +5,7 @@
 }
 
 :root {
-  --text-50: #f0f0f5;
+  --text-50: #f0f0f5; 
   --text-100: #e2e0eb;
   --text-200: #c5c2d6;
 
@@ -138,7 +138,51 @@ button {
   padding: 3px;
   border-radius: 8px;
   animation: zoom-in 450ms ease-in-out;
+  // transition: 3s;
+  // animation-name: animated;
 }
+.card,img{
+  animation: fade;
+  transition: 3s;
+  animation-timeline: view();
+  scroll-behavior: smooth;
+
+
+}
+@keyframes fade {
+  0%{
+    opacity: 0;
+  }
+  
+  50%{
+    opacity: 1.5;
+  }
+  100%{
+    opacity: 1;
+  }
+
+}
+
+// @keyframes animated {
+//   0%{
+//    transition: 3s;
+//    transform: rotate(360deg);
+//   }
+  
+// }
+  //   perspective: 800px;
+  //   -webkit-transform: translateX(-100%) rotate(90deg);
+  //   transform: translateX(-100%) rotate(90deg);
+  //  -webkit-transition: all .5s;
+  //   transition: all .5s;
+  // }
+  // .card.open{
+    
+  //     -webkit-transform: translateX(0%) rotateX(0deg);
+  //     transform: translateX(0%) rotateX(0deg);
+    
+  // }
+
 .card:hover{
 transform: translateY(10px);
   transition: all 250ms ease-in;
@@ -178,6 +222,8 @@ transform: translateY(10px);
 .card img{
   width: 100%;
   height: 100%;
+  
+
 }
 
 
